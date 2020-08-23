@@ -1,0 +1,13 @@
+name = "SymPyTest"
+uuid = "b4bb32aa-856e-4c34-8b56-cb9fdf85e4dd"
+authors = ["jverzani <jverzani@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
